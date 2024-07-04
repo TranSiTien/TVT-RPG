@@ -7,6 +7,18 @@
       "RelativeMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|solutionrelative:assets\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|d:\\games\\tvt rpg\\assets\\playerreleaseenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|solutionrelative:assets\\playerreleaseenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|D:\\Games\\TVT RPG\\assets\\swordattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|solutionrelative:assets\\swordattack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|D:\\Games\\TVT RPG\\assets\\swordenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A638F8-C19E-309B-4430-4D5F08FB3F8D}|Assembly-CSharp.csproj|solutionrelative:assets\\swordenergy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Games\\TVT RPG\\Library\\PackageCache\\com.unity.2d.pixel-perfect@5.0.3\\Runtime\\PixelPerfectCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Library\\PackageCache\\com.unity.2d.pixel-perfect@5.0.3\\Runtime\\PixelPerfectCamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,8 +30,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerReleaseEnergy.cs",
+              "DocumentMoniker": "D:\\Games\\TVT RPG\\Assets\\PlayerReleaseEnergy.cs",
+              "RelativeDocumentMoniker": "Assets\\PlayerReleaseEnergy.cs",
+              "ToolTip": "D:\\Games\\TVT RPG\\Assets\\PlayerReleaseEnergy.cs*",
+              "RelativeToolTip": "Assets\\PlayerReleaseEnergy.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T15:52:52.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SwordEnergy.cs",
+              "DocumentMoniker": "D:\\Games\\TVT RPG\\Assets\\SwordEnergy.cs",
+              "RelativeDocumentMoniker": "Assets\\SwordEnergy.cs",
+              "ToolTip": "D:\\Games\\TVT RPG\\Assets\\SwordEnergy.cs",
+              "RelativeToolTip": "Assets\\SwordEnergy.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAD4vxUAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T05:46:35.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SwordAttack.cs",
+              "DocumentMoniker": "D:\\Games\\TVT RPG\\Assets\\SwordAttack.cs",
+              "RelativeDocumentMoniker": "Assets\\SwordAttack.cs",
+              "ToolTip": "D:\\Games\\TVT RPG\\Assets\\SwordAttack.cs",
+              "RelativeToolTip": "Assets\\SwordAttack.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T16:02:37.859Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -28,14 +77,14 @@
               "RelativeDocumentMoniker": "Assets\\PlayerController.cs",
               "ToolTip": "D:\\Games\\TVT RPG\\Assets\\PlayerController.cs",
               "RelativeToolTip": "Assets\\PlayerController.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAADgvx0AAAAXAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAADwv2UAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T05:54:13.164Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "PixelPerfectCamera.cs",
               "DocumentMoniker": "D:\\Games\\TVT RPG\\Library\\PackageCache\\com.unity.2d.pixel-perfect@5.0.3\\Runtime\\PixelPerfectCamera.cs",
               "RelativeDocumentMoniker": "Library\\PackageCache\\com.unity.2d.pixel-perfect@5.0.3\\Runtime\\PixelPerfectCamera.cs",
@@ -43,7 +92,8 @@
               "RelativeToolTip": "Library\\PackageCache\\com.unity.2d.pixel-perfect@5.0.3\\Runtime\\PixelPerfectCamera.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T05:35:20.479Z"
+              "WhenOpened": "2024-07-03T05:35:20.479Z",
+              "EditorCaption": ""
             }
           ]
         }

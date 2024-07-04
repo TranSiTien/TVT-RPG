@@ -146,6 +146,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
+  swordPrefab: {fileID: 2886061218372291955, guid: 179933b2a43715c44854d4c2db092be8, type: 3}
 --- !u!50 &5874200534576578363
 Rigidbody2D:
   serializedVersion: 4
