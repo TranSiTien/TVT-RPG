@@ -16,6 +16,7 @@ public class PlayerController : MonoBehaviour
     public GameObject swordPrefab;
     bool canMove = true;
     public float ENERGY_SPEED = 10f;
+    public float DESTROY_AFTER_SC = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -117,32 +118,33 @@ public class PlayerController : MonoBehaviour
                 direction = Direction.Left;
             else
                 direction = Direction.Right;
-        Quaternion rotation = Quaternion.identity;
         switch (direction)
         {
             case Direction.Right:
-                z_rotation = 0;
+                z_rotation = 90;
                 dirVect = new Vector2(ENERGY_SPEED, 0);
                 break;
             case Direction.Left:
-                z_rotation = 180;
+                z_rotation = -90;
                 dirVect = new Vector2(-ENERGY_SPEED, 0);
                 break;
             case Direction.Up:
-                z_rotation = 90;
+                z_rotation = 180;
                 dirVect = new Vector2(0, ENERGY_SPEED);
                 break;
             case Direction.Down:
-                z_rotation = 270;
+                z_rotation = 0;
                 dirVect = new Vector2(0, -ENERGY_SPEED);
                 break;
         }
 
 
-        rotation.z = z_rotation;
+        Quaternion rotation = Quaternion.Euler(0.0f, 0.0f, z_rotation);
         GameObject energy = Instantiate(swordPrefab, transform.position, transform.rotation);
         Rigidbody2D energyRb = energy.GetComponent<Rigidbody2D>();
+        energy.transform.rotation = rotation;
         energyRb.velocity = dirVect;
+        Destroy(energy, DESTROY_AFTER_SC);
     }
 
     public void LockMovement()
